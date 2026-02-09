@@ -1,4 +1,4 @@
-package com.egov.profileservice;
+package com.egov.authservice;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,5 +8,5 @@ import lombok.Setter;
 public class Principal {
 
     String state;
-    String username;
+    String cust_id;
 }
